@@ -8,6 +8,7 @@
  * otherwise, 0, if not full, or tree is NULL
  */
 
+int full_tree(const binary_tree_t *tree);
 int binary_tree_is_full(const binary_tree_t *tree)
 {
 	if (tree == NULL)
